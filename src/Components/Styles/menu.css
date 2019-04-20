@@ -1,0 +1,36 @@
+.on {
+  font-size: 1.2rem;
+  border: 2px solid #95a5a6;
+  border-radius: 10px;
+  background-color: rgba(176, 179, 183, 0.8);
+  animation: 0.4s SlideDown ease forwards;
+  outline: none;
+}
+
+.off {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+@keyframes SlideDown {
+  0% {
+    height: 0;
+    font-size: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  99% {
+    height: 180px;
+    font-size: 0;
+  }
+
+  100% {
+    color: #2c3e50;
+    height: 180px;
+    font-size: 1.2rem;
+    background-color: rgba(142, 146, 151, 0.8);
+  }
+}

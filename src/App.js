@@ -1,25 +1,56 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReallySmoothScroll from 'really-smooth-scroll';
+import Btn from './Components/Layouts/btn.jsx';
+import ScrollAnimation from 'react-animate-on-scroll';
+import './Components/Styles/App.css';
+import "animate.css/animate.min.css";
+import Navigation from './Components/Layouts/Navigation.jsx';
+
+
+ReallySmoothScroll.shim();
+
 
 class App extends Component {
+
+  state = {
+    isTrue: false,
+  }
+
+  handleIsTrue = () => {
+    this.setState({
+      isTrue: !this.state.isTrue
+    })
+  }
+
+  handleChangeToFalse = () => {
+    this.setState({
+      isTrue: false
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Navigation className='navig' isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} />
+        <div className='container col-md-11' onClick={this.handleChangeToFalse}>
+          <div className='spacer' />
+          <div className='spacer' />
+          <ScrollAnimation animateIn="fadeIn">
+            <Btn />
+
+            <ScrollAnimation animateIn='bounceInRight' animateOnce duration={1.5}
+              animateOut='bounceOutLeft'>
+              <div className='spacer' />
+            </ScrollAnimation>
+            <div className='spacer' />
+            <div className='spacer' />
+            <div className='spacer' />
+            <section className='col-md-8'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi rem pariatur sapiente fugiat enim at, magnam commodi doloribus modi iste quidem aliquid vero quasi veniam totam saepe corporis, adipisci ratione.</section>
+            <div className='spacer' />
+          </ScrollAnimation>
+
+
+        </div>
       </div>
     );
   }
