@@ -6,7 +6,7 @@ import Menu from './menu.jsx';
 const Navigation = (props) => {
   return (
     <nav className='topBar'>
-      <ToggleButton isTrue={props.handleIsTrue} />
+      <ToggleButton handleIsTrue={props.handleIsTrue} isTrue={props.isTrue} />
       <img src="" alt="" />
       <Menu isTrue={props.isTrue} />
     </nav>
