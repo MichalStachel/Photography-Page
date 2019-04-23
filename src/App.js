@@ -5,6 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import './Components/Styles/App.css';
 import "animate.css/animate.min.css";
 import Navigation from './Components/Layouts/Navigation.jsx';
+import Slider from './Components/Pages/Slider.jsx';
 
 
 ReallySmoothScroll.shim();
@@ -31,13 +32,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation className='navig' isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} />
-        <div className='container col-md-11' onClick={this.handleChangeToFalse}>
-          <div className='spacer' />
-          <div className='spacer' />
+        <Navigation className='navig' isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
+        <div className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
+          <Slider />
           <ScrollAnimation animateIn="fadeIn">
+            <div className='spacer' />
+            <div className='spacer' />
             <Btn />
-
             <ScrollAnimation animateIn='bounceInRight' animateOnce duration={1.5}
               animateOut='bounceOutLeft'>
               <div className='spacer' />
@@ -45,7 +46,7 @@ class App extends Component {
             <div className='spacer' />
             <div className='spacer' />
             <div className='spacer' />
-            <section className='col-md-8'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi rem pariatur sapiente fugiat enim at, magnam commodi doloribus modi iste quidem aliquid vero quasi veniam totam saepe corporis, adipisci ratione.</section>
+            <section className='col-md-8'>Lorem ipsum dolor sit, amet  adipisicing elit. Nisi rem pariatur sapiente fugiat enim at, magnam commodi doloribus modi iste quidem aliquid vero quasi veniam totam saepe corporis, adipisci ratione.</section>
             <div className='spacer' />
           </ScrollAnimation>
 

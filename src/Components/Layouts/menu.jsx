@@ -4,7 +4,7 @@ import '../Styles/menu.css';
 const Menu = (props) => {
 
   return (
-    <ul className={props.isTrue ? 'on col-md-2' : 'off'}>
+    <ul className={props.isTrue ? 'on' : 'off'} onClick={props.handleChangeToFalse}>
       <li>Strona Główna</li>
       <li>Sesje Dziecięce</li>
       <li>Sesje Ciążowe</li>
