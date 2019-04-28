@@ -1,0 +1,42 @@
+.aboutImg {
+  width: 30%;
+}
+
+
+.aboutText {
+  padding: 10px;
+  text-align: center;
+}
+
+.aboutText2 {
+  padding: 0 0 50px 14.5%;
+  text-align: justify;
+}
+
+.art {
+  text-align: justify;
+  justify-self: flex-end;
+}
+
+.aboutText h1 {
+  padding-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

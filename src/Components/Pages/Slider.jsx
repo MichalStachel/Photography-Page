@@ -14,6 +14,9 @@ import arrR from '../images/arrowRight.png';
 const imgList = [
   Baby, Smaller, Bigger, Woman
 ]
+let sliderImg = 'sliderImg';
+
+
 
 class Slider extends Component {
   state = {
@@ -28,7 +31,17 @@ class Slider extends Component {
     }, 4000);
   }
 
-  componentDidUpdate() {
+  componentDidUpdate = () => {
+    if (this.state.counter === 1) {
+      sliderImg = 'sliderImg2';
+    } else if (this.state.counter === 3) {
+      sliderImg = 'sliderImg2';
+    } else if (this.state.counter === 0) {
+      sliderImg = 'sliderImg';
+    } else if (this.state.counter === 2) {
+      sliderImg = 'sliderImg';
+    }
+
     if (this.state.counter >= imgList.length)
       this.setState({
         counter: 0
@@ -66,7 +79,7 @@ class Slider extends Component {
       <div className='slider col-md-12 '>
         <button className='nopadding btnSL' onClick={this.previousS}><img src={arrL} alt="arrow" className='arrImg' /></button>
         <div className='nopadding'>
-          {this.state.counter >= 0 ? <img src={imgList[this.state.counter]} alt='' className='sliderImg' /> : <img src={Baby} alt='' />}
+          {this.state.counter >= 0 ? <img src={imgList[this.state.counter]} alt='' className={sliderImg} id='movingImg' /> : <img src={Baby} alt='' />}
         </div>
         <button className='nopadding btnSR' onClick={this.nextS}><img src={arrR} alt="arrow" className='arrImg' /></button>
       </div>

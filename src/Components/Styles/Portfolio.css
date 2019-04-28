@@ -1,0 +1,21 @@
+.display-container {
+  position: relative;
+}
+
+.portfolio {
+  min-height: 400px;
+  font-size: 1.8rem;
+}
+
+
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.wide {
+  letter-spacing: 4px
+}

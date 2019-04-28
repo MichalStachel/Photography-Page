@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 import ReallySmoothScroll from 'really-smooth-scroll';
 import Btn from './Components/Layouts/btn.jsx';
 import ScrollAnimation from 'react-animate-on-scroll';
-import './Components/Styles/App.css';
-import "animate.css/animate.min.css";
 import Navigation from './Components/Layouts/Navigation.jsx';
 import Slider from './Components/Pages/Slider.jsx';
+import Portfolio from './Components/Pages/Portfolio.jsx';
+import KidsPhotos from './Components/Pages/KidsPhotos.jsx';
+import About from './Components/Pages/about.jsx';
+import './Components/Styles/App.css';
+import "animate.css/animate.min.css";
+
 
 
 ReallySmoothScroll.shim();
@@ -33,25 +37,15 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation className='navig' isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
-        <div className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
+        <main className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
           <Slider />
-          <ScrollAnimation animateIn="fadeIn">
-            <div className='spacer' />
-            <div className='spacer' />
+          <Portfolio />
+          <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
+            <KidsPhotos />
+            <About />
             <Btn />
-            <ScrollAnimation animateIn='bounceInRight' animateOnce duration={1.5}
-              animateOut='bounceOutLeft'>
-              <div className='spacer' />
-            </ScrollAnimation>
-            <div className='spacer' />
-            <div className='spacer' />
-            <div className='spacer' />
-            <section className='col-md-8'>Lorem ipsum dolor sit, amet  adipisicing elit. Nisi rem pariatur sapiente fugiat enim at, magnam commodi doloribus modi iste quidem aliquid vero quasi veniam totam saepe corporis, adipisci ratione.</section>
-            <div className='spacer' />
           </ScrollAnimation>
-
-
-        </div>
+        </main>
       </div>
     );
   }

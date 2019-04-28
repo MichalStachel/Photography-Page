@@ -10,7 +10,6 @@
   transform: translateY(60px);
   transition: 0.5s;
   z-index: 100;
-  width: 15%;
   text-align: center;
   padding: 0;
 }
@@ -19,32 +18,30 @@
   display: none;
 }
 
-li {
+ul li {
+  color: #ecf0f1;
   list-style-type: none;
   margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
 }
 
 li:hover {
   background-color: #7f8c8d;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 @keyframes SlideDown {
   0% {
-    height: 0;
     font-size: 0;
     background-color: rgba(255, 255, 255, 0.3);
   }
 
-  99% {
-    height: 180px;
-    font-size: 0;
-  }
-
   100% {
     color: #2c3e50;
-    height: 180px;
     font-size: 1.2rem;
     background-color: rgba(142, 146, 151, 0.8);
   }

@@ -3,9 +3,14 @@ import '../Styles/menu.css';
 
 const Menu = (props) => {
 
+
+  const handleUp = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <ul className={props.isTrue ? 'on' : 'off'} onClick={props.handleChangeToFalse}>
-      <li>Strona Główna</li>
+      <li onClick={handleUp}>Strona Główna</li>
       <li>Sesje Dziecięce</li>
       <li>Sesje Ciążowe</li>
       <li>Sesje Noworodków</li>
