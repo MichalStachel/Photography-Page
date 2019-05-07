@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 import '../Styles/Slider.css';
 import Baby from '../images/BabyW.jpg';
 import Bigger from '../images/Bigger_BabyW.jpg';
@@ -77,11 +77,13 @@ class Slider extends Component {
   render() {
     return (
       <div className='slider col-md-12 '>
-        <button className='nopadding btnSL' onClick={this.previousS}><img src={arrL} alt="arrow" className='arrImg' /></button>
-        <div className='nopadding'>
-          {this.state.counter >= 0 ? <img src={imgList[this.state.counter]} alt='' className={sliderImg} id='movingImg' /> : <img src={Baby} alt='' />}
-        </div>
-        <button className='nopadding btnSR' onClick={this.nextS}><img src={arrR} alt="arrow" className='arrImg' /></button>
+        <ScrollAnimation animateIn='slideInDown' animateOut='slideOutUp'>
+          <button className='nopadding btnSL' onClick={this.previousS}><img src={arrL} alt="arrow" className='arrImg' /></button>
+          <div className='nopadding'>
+            {this.state.counter >= 0 ? <img src={imgList[this.state.counter]} alt='' className={sliderImg} id='movingImg' /> : <img src={Baby} alt='' />}
+          </div>
+          <button className='nopadding btnSR' onClick={this.nextS}><img src={arrR} alt="arrow" className='arrImg' /></button>
+        </ScrollAnimation>
       </div>
     );
   }

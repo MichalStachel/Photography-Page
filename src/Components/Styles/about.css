@@ -1,21 +1,21 @@
 .aboutImg {
   width: 30%;
+  display: flex;
 }
 
 
 .aboutText {
   padding: 10px;
   text-align: center;
+  font-size: 1rem;
 }
 
 .aboutText2 {
   padding: 0 0 50px 14.5%;
-  text-align: justify;
 }
 
 .art {
   text-align: justify;
-  justify-self: flex-end;
 }
 
 .aboutText h1 {
@@ -39,4 +39,45 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+
+@media(max-width:1400px) {
+  .aboutImg {
+    width: 50%;
+  }
+
+  .aboutText2 {
+    padding: 0 0 50px 12%;
+  }
+}
+
+@media(max-width:900px) {
+  .aboutImg {
+    width: 80%;
+    transform: translateX(10%);
+    padding-bottom: 35px;
+    border-radius: 5px;
+  }
+
+  .aboutText2 {
+    padding: 0 0 50px 12%;
+    font-size: 0.8rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .aboutText {
+    width: 80%;
+    transform: translateX(10%);
+    font-size: 0.8rem;
+  }
+
+  .aboutText2 {
+    width: 80%;
+    transform: translateX(10%);
+    padding: 0;
+  }
 }

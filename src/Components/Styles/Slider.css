@@ -22,14 +22,18 @@
 
 
 .arrImg {
-  height: 25vh;
+  height: 10vh;
   padding: 0;
+}
+
+.arrImg:focus {
+  transform: scale(115%);
 }
 
 .btnSR {
   position: absolute;
-  bottom: 35%;
-  right: 0;
+  bottom: 45%;
+  right: 3%;
   border: none;
   outline: none !important;
   background: none;
@@ -39,8 +43,8 @@
 
 .btnSL {
   position: absolute;
-  top: 40%;
-  left: 0;
+  top: 47%;
+  left: 3%;
   border: none;
   outline: none !important;
   background: none;
@@ -49,8 +53,19 @@
   transition: 0.4s;
 }
 
+
 .slider:hover .btnSR {
   transform: scale(1);
+  transition: 0.4s;
+}
+
+.slider:hover .btnSR:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.slider:hover .btnSL:hover {
+  transform: scale(1.1);
   transition: 0.4s;
 }
 

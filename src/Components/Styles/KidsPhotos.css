@@ -91,6 +91,7 @@
 
   .kids .box2 .imgBox img {
     height: 30vh;
-    width: 100%;
+    width: 60%;
+    transform: translateX(35%);
   }
 }

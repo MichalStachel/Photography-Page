@@ -6,8 +6,8 @@ class KidsPhotos extends Component {
   state = {}
   render() {
     return (
-      <>
-        <section className='kids'>
+      <section>
+        <div className='kids'>
           <span className='wide kidText'>Sesje dziecięce</span>
           <div className='mid'>
             <div className='box'>
@@ -51,9 +51,9 @@ class KidsPhotos extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section className='kids'>
+        <div className='kids'>
           <span className='wide kidText mg'>sesje ciążowe</span>
           <div className='mid'>
             <div className='box'>
@@ -97,9 +97,9 @@ class KidsPhotos extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section className='kids'>
+        <div className='kids'>
           <span className='wide kidText mg'>sesje noworodkowe</span>
           <div className='mid'>
             <div className='box'>
@@ -143,8 +143,8 @@ class KidsPhotos extends Component {
               </div>
             </div>
           </div>
-        </section>
-      </>
+        </div>
+      </section>
     );
   }
 }
