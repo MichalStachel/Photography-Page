@@ -1,16 +1,17 @@
 import React from 'react';
 import '../Styles/about.css';
 import Bigger_Baby from '../images/Bigger_BabyW.jpg';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const about = () => {
   return (
     <>
-      <div class="portfolio display-container -opacity-min">
+      <div class="portfolio display-container">
         <div class="display-middle">
-          <span class="wide">O MNIE</span>
+          <ScrollAnimation animateIn='zoomIn' animateOnce> <span class="wide">O MNIE</span></ScrollAnimation>
         </div>
       </div>
-      <section class='row'>
+      <section class='row mid'>
         <div class='column'>
           <img src={Bigger_Baby} alt="" className='aboutImg' />
         </div>

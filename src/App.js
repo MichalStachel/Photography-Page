@@ -7,6 +7,8 @@ import Slider from './Components/Pages/Slider.jsx';
 import Portfolio from './Components/Pages/Portfolio.jsx';
 import KidsPhotos from './Components/Pages/KidsPhotos.jsx';
 import About from './Components/Pages/about.jsx';
+import Contact from './Components/Pages/Contact.jsx';
+// import ContactPage from './Components/Pages/ContactPage.jsx';
 import './Components/Styles/App.css';
 import "animate.css/animate.min.css";
 
@@ -36,13 +38,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation className='navig' isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
+        <Navigation isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
         <main className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
           <Slider />
           <Portfolio />
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <KidsPhotos />
             <About />
+            <Contact />
+            {/* <ContactPage /> */}
             <Btn />
           </ScrollAnimation>
         </main>

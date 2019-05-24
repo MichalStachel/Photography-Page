@@ -1,0 +1,74 @@
+.contact {
+  font-size: 1.5rem;
+  background-color: #ecf0f1;
+  padding: 15px 30px;
+}
+
+div p a {
+  text-decoration: none;
+  color: #3C5A99;
+}
+
+.contact p {
+  display: flex;
+}
+
+.contact p i {
+  padding-right: 2%;
+}
+
+.contact p a {
+  white-space: nowrap;
+}
+
+.GM {
+  color: #D44638;
+}
+
+#btn-mail {
+  outline: none;
+  margin: 0 10px;
+  color: #D44638;
+  border: 1px inset #D44638;
+  background: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+#btn-mail:hover {
+  transform: translate(1px, 1px);
+  transition: 0.2s;
+}
+
+#btn-mail:active {
+  background: #bdc3c7;
+  transition: 0.2s;
+}
+
+#copied {
+  animation: copied 3s ease;
+}
+
+@keyframes copied {
+  0% {
+    color: transparent;
+  }
+
+  20% {
+    color: #D44638
+  }
+
+  80% {
+    color: #D44638
+  }
+
+  100% {
+    color: transparent;
+  }
+}
+
+
+
+@media (max-width:600px) {}

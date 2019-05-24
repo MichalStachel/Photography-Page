@@ -54,14 +54,17 @@
 }
 
 .backRight {
+  height: 1.8px;
   animation: 0.5s backRight ease forwards;
 }
 
 .midHide {
+  height: 1.8px;
   animation: 0.3s midHide ease forwards;
 }
 
 .midShow {
+  height: 1.8px;
   animation: 0.3s midShow ease forwards;
 }
 
