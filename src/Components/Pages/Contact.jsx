@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div class="portfolio display-container">
       <div class="display-middle">
-        <ScrollAnimation animateIn='zoomIn' animateOnce><span class="wide">CONTACT</span></ScrollAnimation>
+        <ScrollAnimation animateIn='zoomIn' animateOnce><span class="wide">KONTAKT</span></ScrollAnimation>
       </div>
     </div>
   );

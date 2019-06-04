@@ -1,15 +1,13 @@
 .on {
   font-size: 1.2rem;
-  /* border: 2px solid #95a5a6; */
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   background-color: rgba(209, 195, 195, 0.527);
-  animation: 0.4s SlideDown ease forwards;
+  animation: 0.4s SlideUp ease forwards;
   outline: none;
   margin: 0;
   position: fixed;
   transform: translateY(60px);
-  transition: 0.5s;
   z-index: 100;
   text-align: center;
   padding: 0;
@@ -34,7 +32,7 @@ li:hover {
   transition: 0.4s;
 }
 
-@keyframes SlideDown {
+@keyframes SlideUp {
   0% {
     font-size: 0;
     background-color: rgba(255, 255, 255, 0.3);

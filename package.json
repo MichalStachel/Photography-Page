@@ -1,20 +1,25 @@
 {
+  "homepage": "https://michalstachel.github.io/Photography-Page/.",
   "name": "photography-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
+    "react-scroll": "^1.7.11",
     "really-smooth-scroll": "^2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,6 +32,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {}
+  ]
 }

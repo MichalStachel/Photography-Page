@@ -11,7 +11,7 @@ const Navigation = (props) => {
         <ToggleButton handleIsTrue={props.handleIsTrue} isTrue={props.isTrue} />
         <img src={Logo} className='logo' alt='' />
       </nav>
-      <Menu isTrue={props.isTrue} handleChangeToFalse={props.handleChangeToFalse} />
+      <Menu isTrue={props.isTrue} isTrueBaby={props.isTrueBaby} isTrueWedding={props.isTrueWedding} handleChangeToFalse={props.handleChangeToFalse} />
     </div>
   );
 }

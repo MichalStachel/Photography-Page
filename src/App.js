@@ -11,6 +11,8 @@ import Contact from './Components/Pages/Contact.jsx';
 // import ContactPage from './Components/Pages/ContactPage.jsx';
 import './Components/Styles/App.css';
 import "animate.css/animate.min.css";
+import { Element } from 'react-scroll';
+
 
 
 
@@ -21,6 +23,8 @@ class App extends Component {
 
   state = {
     isTrue: false,
+    isTrueBaby: false,
+    isTrueWedding: false,
   }
 
   handleIsTrue = () => {
@@ -38,14 +42,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation isTrue={this.state.isTrue} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
+        <Navigation isTrue={this.state.isTrue} isTrueBaby={this.state.isTrueBaby} isTrueWedding={this.state.isTrueWedding} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
         <main className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
           <Slider />
           <Portfolio />
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <KidsPhotos />
-            <About />
-            <Contact />
+            <Element name="scrollToAbout"><About /></Element>
+            <Element name="scrollToContact"><Contact /></Element>
             {/* <ContactPage /> */}
             <Btn />
           </ScrollAnimation>
