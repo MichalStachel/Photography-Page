@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9dc02bf08fe6c326ba98",
-    "url": "/Photography-Page/./static/css/main.04f436b6.chunk.css"
+    "revision": "4f9267adcf231731b88c",
+    "url": "/Photography-Page/./static/css/main.79ef80dc.chunk.css"
   },
   {
-    "revision": "9dc02bf08fe6c326ba98",
-    "url": "/Photography-Page/./static/js/main.864d2965.chunk.js"
+    "revision": "4f9267adcf231731b88c",
+    "url": "/Photography-Page/./static/js/main.a3dbaa07.chunk.js"
   },
   {
     "revision": "8993ac8e6309e7d4ed2d",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/Pregnant_WomanW.ab257b37.jpg"
   },
   {
-    "revision": "72f02742077412022183ad00ffb96400",
-    "url": "/Photography-Page/./static/media/Logo.72f02742.png"
+    "revision": "71b250a140f982b5cb084e2c4a48bef8",
+    "url": "/Photography-Page/./static/media/Logo.71b250a1.png"
   },
   {
     "revision": "639603d3463109fd4af9815154afcc16",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/arrowRight.d4bc6ff4.png"
   },
   {
-    "revision": "9e7ff2709f0feda7bfe36d89e8072c93",
+    "revision": "b134e76dbb5fd962f00bd60f2766f70c",
     "url": "/Photography-Page/./index.html"
   }
 ];
