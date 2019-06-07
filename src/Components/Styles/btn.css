@@ -18,11 +18,12 @@
 }
 
 .iconUp {
-  height: 25px;
-  padding: 5px;
+  height: 15px;
+  padding: 8px 0 4px 0;
 
 }
 
+/* 
 @media(max-width:900px) {
   .iconUp {
     height: 16px;
@@ -32,4 +33,4 @@
   .btnUp {
     font-size: 1.4rem;
   }
-}
+} */

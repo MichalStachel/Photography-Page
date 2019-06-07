@@ -8,7 +8,7 @@ import Portfolio from './Components/Pages/Portfolio.jsx';
 import KidsPhotos from './Components/Pages/KidsPhotos.jsx';
 import About from './Components/Pages/about.jsx';
 import Contact from './Components/Pages/Contact.jsx';
-// import ContactPage from './Components/Pages/ContactPage.jsx';
+import ContactPage from './Components/Pages/ContactPage.jsx';
 import './Components/Styles/App.css';
 import "animate.css/animate.min.css";
 import { Element } from 'react-scroll';
@@ -43,14 +43,14 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation isTrue={this.state.isTrue} isTrueBaby={this.state.isTrueBaby} isTrueWedding={this.state.isTrueWedding} handleIsTrue={this.handleIsTrue} handleChangeToFalse={this.handleChangeToFalse} />
-        <main className='container col-md-12 nopadding' onClick={this.handleChangeToFalse}>
+        <main className='nopadding' onClick={this.handleChangeToFalse}>
           <Slider />
           <Portfolio />
           <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut'>
             <KidsPhotos />
             <Element name="scrollToAbout"><About /></Element>
             <Element name="scrollToContact"><Contact /></Element>
-            {/* <ContactPage /> */}
+            <ContactPage />
             <Btn />
           </ScrollAnimation>
         </main>

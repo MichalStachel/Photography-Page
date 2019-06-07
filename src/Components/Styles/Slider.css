@@ -20,6 +20,37 @@
   filter: brightness(0.8);
 }
 
+.dot-wrapper {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 46.5%;
+  justify-content: space-between;
+}
+
+.dot {
+  width: 1.8vh;
+  height: 1.8vh;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 6px 5px rgba(126, 153, 199, 0.84);
+  -moz-box-shadow: 0px 0px 6px 5px rgba(126, 153, 199, 0.84);
+  box-shadow: 0px 0px 6px 5px rgba(126, 153, 199, 0.84);
+  transition: 0.8s;
+  margin: 1vh;
+}
+
+.active-dot {
+  width: 2vh;
+  height: 2vh;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 6px 5px rgba(224, 69, 69, 1);
+  -moz-box-shadow: 0px 0px 6px 5px rgba(224, 69, 69, 1);
+  box-shadow: 0px 0px 6px 5px rgba(224, 69, 69, 1);
+  transition: 1s;
+  margin: 1vh;
+}
 
 .arrImg {
   height: 10vh;
@@ -43,7 +74,7 @@
 
 .btnSL {
   position: absolute;
-  top: 47%;
+  top: 45%;
   left: 3%;
   border: none;
   outline: none !important;
