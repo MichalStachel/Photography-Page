@@ -138,21 +138,21 @@
 
 @keyframes showPhoto {
   0% {
-    width: 0;
+    height: 0;
   }
 
   100% {
-    width: 70%;
+    height: 90vh;
   }
 }
 
 @keyframes hidePhoto {
   0% {
-    width: 70%;
+    height: 90vh;
   }
 
   100% {
-    width: 0;
+    height: 0;
   }
 }
 
