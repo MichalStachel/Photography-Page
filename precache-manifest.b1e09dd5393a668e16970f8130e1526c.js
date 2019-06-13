@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "118182d2d8440f203172",
-    "url": "/Photography-Page/./static/css/main.065df722.chunk.css"
+    "revision": "b66c8ff58e0a98a84a64",
+    "url": "/Photography-Page/./static/css/main.fc950db8.chunk.css"
   },
   {
-    "revision": "118182d2d8440f203172",
-    "url": "/Photography-Page/./static/js/main.9a4d43b1.chunk.js"
+    "revision": "b66c8ff58e0a98a84a64",
+    "url": "/Photography-Page/./static/js/main.ba30b325.chunk.js"
   },
   {
     "revision": "8993ac8e6309e7d4ed2d",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/x.ff51687b.jpg"
   },
   {
-    "revision": "7e936a81d8a98bd9fa1c11fe330fd792",
+    "revision": "3f8fe50e82e0f40129b1ba8c64318718",
     "url": "/Photography-Page/./index.html"
   }
 ];
