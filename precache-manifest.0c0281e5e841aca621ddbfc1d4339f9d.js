@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "96239056224ddd3cb506",
-    "url": "/Photography-Page/./static/css/main.fc950db8.chunk.css"
+    "revision": "118182d2d8440f203172",
+    "url": "/Photography-Page/./static/css/main.065df722.chunk.css"
   },
   {
-    "revision": "96239056224ddd3cb506",
+    "revision": "118182d2d8440f203172",
     "url": "/Photography-Page/./static/js/main.9a4d43b1.chunk.js"
   },
   {
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/x.ff51687b.jpg"
   },
   {
-    "revision": "f59cae94b80750c18e245cbda0046663",
+    "revision": "7e936a81d8a98bd9fa1c11fe330fd792",
     "url": "/Photography-Page/./index.html"
   }
 ];
