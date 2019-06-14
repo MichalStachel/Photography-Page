@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "82969dd1483912ba2d42",
-    "url": "/Photography-Page/./static/css/main.5092c0cc.chunk.css"
+    "revision": "cc04a24553ed2b690667",
+    "url": "/Photography-Page/./static/css/main.b5c5147f.chunk.css"
   },
   {
-    "revision": "82969dd1483912ba2d42",
-    "url": "/Photography-Page/./static/js/main.ba30b325.chunk.js"
+    "revision": "cc04a24553ed2b690667",
+    "url": "/Photography-Page/./static/js/main.6206bef4.chunk.js"
   },
   {
     "revision": "8993ac8e6309e7d4ed2d",
     "url": "/Photography-Page/./static/js/runtime~main.8c02c59f.js"
   },
   {
-    "revision": "af6518b151eaad1c13ba",
+    "revision": "fcd981716853afd035c5",
     "url": "/Photography-Page/./static/css/2.c0fa12aa.chunk.css"
   },
   {
-    "revision": "af6518b151eaad1c13ba",
-    "url": "/Photography-Page/./static/js/2.64393876.chunk.js"
-  },
-  {
-    "revision": "3be3202aa9a8d0ca13131e6efa7cd030",
-    "url": "/Photography-Page/./static/media/Bigger_BabyW.3be3202a.jpg"
+    "revision": "fcd981716853afd035c5",
+    "url": "/Photography-Page/./static/js/2.84e4af82.chunk.js"
   },
   {
     "revision": "71b250a140f982b5cb084e2c4a48bef8",
@@ -30,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "a07ce9d5765a3bf1cc0c11350679c4b5",
     "url": "/Photography-Page/./static/media/BabyW.a07ce9d5.jpg"
+  },
+  {
+    "revision": "3be3202aa9a8d0ca13131e6efa7cd030",
+    "url": "/Photography-Page/./static/media/Bigger_BabyW.3be3202a.jpg"
   },
   {
     "revision": "ee11ce0f5d3ae56c5628df9c2b453fbd",
@@ -144,7 +144,15 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/x.ff51687b.jpg"
   },
   {
-    "revision": "33fd9879172e5bfb1e0dd85868769b43",
+    "revision": "edcb7723f3e8168ab8e1cd88f2557323",
+    "url": "/Photography-Page/./static/media/Weronika.edcb7723.jpg"
+  },
+  {
+    "revision": "33d1a6996dba26d7054581fb9d254cbd",
+    "url": "/Photography-Page/./static/media/person_icon.33d1a699.png"
+  },
+  {
+    "revision": "da32b19a836291c6248faad66676ac06",
     "url": "/Photography-Page/./index.html"
   }
 ];
