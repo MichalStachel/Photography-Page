@@ -1,25 +1,29 @@
 .aboutImg {
-  width: 30%;
-  display: flex;
+  border-radius: 5%;
+  height: 500px;
+  margin: 0 5vh 5vh 0;
+}
+
+.about {
+  width: 80%;
 }
 
 
 .aboutText {
-  padding: 10px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  transform: translateY(8vh);
 }
 
-.aboutText2 {
-  padding: 0 0 50px 14.5%;
-}
+
 
 .art {
   text-align: justify;
 }
 
-.aboutText h1 {
-  padding-bottom: 50px;
+.name {
+  font-size: 1.6rem;
+  color: #3498db;
 }
 
 .row {
@@ -42,42 +46,31 @@
 }
 
 
-@media(max-width:1400px) {
-  .aboutImg {
-    width: 50%;
-  }
-
-  .aboutText2 {
-    padding: 0 0 50px 12%;
-  }
-}
-
-@media(max-width:900px) {
-  .aboutImg {
-    width: 80%;
-    transform: translateX(10%);
-    padding-bottom: 35px;
-    border-radius: 5px;
-  }
-
-  .aboutText2 {
-    padding: 0 0 50px 12%;
-    font-size: 0.8rem;
-  }
-
-  .row {
+@media(max-width:1300px) {
+  .about {
+    display: flex;
     flex-direction: column;
   }
 
   .aboutText {
-    width: 80%;
-    transform: translateX(10%);
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
 
-  .aboutText2 {
-    width: 80%;
-    transform: translateX(10%);
-    padding: 0;
+  .aboutImg {
+    border-radius: 5%;
+    height: 400px;
+    margin: 0;
+  }
+}
+
+@media(max-width:900px) {
+  .aboutText {
+    font-size: 1rem;
+  }
+
+  .aboutImg {
+    border-radius: 5%;
+    height: 200px;
+    margin: 0;
   }
 }
