@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "224defa4bc1eb8844d38",
-    "url": "/Photography-Page/./static/css/main.d557fdd4.chunk.css"
+    "revision": "ceaecc85b105ee82e797",
+    "url": "/Photography-Page/./static/css/main.b5c5147f.chunk.css"
   },
   {
-    "revision": "224defa4bc1eb8844d38",
-    "url": "/Photography-Page/./static/js/main.6206bef4.chunk.js"
+    "revision": "ceaecc85b105ee82e797",
+    "url": "/Photography-Page/./static/js/main.6726e618.chunk.js"
   },
   {
     "revision": "8993ac8e6309e7d4ed2d",
@@ -24,20 +24,20 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/Logo.71b250a1.png"
   },
   {
-    "revision": "a07ce9d5765a3bf1cc0c11350679c4b5",
-    "url": "/Photography-Page/./static/media/BabyW.a07ce9d5.jpg"
+    "revision": "0825e46c28aab0de8a6a3c32de84a383",
+    "url": "/Photography-Page/./static/media/BabyW.0825e46c.jpg"
   },
   {
-    "revision": "3be3202aa9a8d0ca13131e6efa7cd030",
-    "url": "/Photography-Page/./static/media/Bigger_BabyW.3be3202a.jpg"
+    "revision": "c8ddd68ca5d18cc54cf407dbf8dcde82",
+    "url": "/Photography-Page/./static/media/Bigger_BabyW.c8ddd68c.jpg"
   },
   {
-    "revision": "ee11ce0f5d3ae56c5628df9c2b453fbd",
-    "url": "/Photography-Page/./static/media/Smaller_BabyW.ee11ce0f.jpg"
+    "revision": "1b0ad1f4754da9355c161241ed652c50",
+    "url": "/Photography-Page/./static/media/Smaller_BabyW.1b0ad1f4.jpg"
   },
   {
-    "revision": "3741912ea308d579350b31247c38b493",
-    "url": "/Photography-Page/./static/media/Pregnant_WomanW.3741912e.jpg"
+    "revision": "6d272b3eff76a454b822f021701f1465",
+    "url": "/Photography-Page/./static/media/Pregnant_WomanW.6d272b3e.jpg"
   },
   {
     "revision": "639603d3463109fd4af9815154afcc16",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/person_icon.33d1a699.png"
   },
   {
-    "revision": "1a60d0e196f2eeae4d2945c8593a53b7",
+    "revision": "a659d75be7ff78e242bd6baa636e4e12",
     "url": "/Photography-Page/./index.html"
   }
 ];
