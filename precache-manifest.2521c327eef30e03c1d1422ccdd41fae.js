@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "ceaecc85b105ee82e797",
-    "url": "/Photography-Page/./static/css/main.b5c5147f.chunk.css"
+    "revision": "97ee8fd56a3c93392700",
+    "url": "/Photography-Page/./static/css/main.94e8f30a.chunk.css"
   },
   {
-    "revision": "ceaecc85b105ee82e797",
-    "url": "/Photography-Page/./static/js/main.6726e618.chunk.js"
+    "revision": "97ee8fd56a3c93392700",
+    "url": "/Photography-Page/./static/js/main.9249b46b.chunk.js"
   },
   {
     "revision": "8993ac8e6309e7d4ed2d",
     "url": "/Photography-Page/./static/js/runtime~main.8c02c59f.js"
   },
   {
-    "revision": "fcd981716853afd035c5",
+    "revision": "e9df894513aedca34e30",
     "url": "/Photography-Page/./static/css/2.c0fa12aa.chunk.css"
   },
   {
-    "revision": "fcd981716853afd035c5",
-    "url": "/Photography-Page/./static/js/2.84e4af82.chunk.js"
+    "revision": "e9df894513aedca34e30",
+    "url": "/Photography-Page/./static/js/2.a210f798.chunk.js"
   },
   {
     "revision": "71b250a140f982b5cb084e2c4a48bef8",
@@ -152,7 +152,23 @@ self.__precacheManifest = [
     "url": "/Photography-Page/./static/media/person_icon.33d1a699.png"
   },
   {
-    "revision": "a659d75be7ff78e242bd6baa636e4e12",
+    "revision": "26040292b32e2edd407d967885e270dd",
+    "url": "/Photography-Page/./static/media/fb.26040292.png"
+  },
+  {
+    "revision": "dcdd3f1e54ebef691f7587202a1aebeb",
+    "url": "/Photography-Page/./static/media/inst.dcdd3f1e.png"
+  },
+  {
+    "revision": "edf4c917e52bb1f5ddfc2c7677d2c17e",
+    "url": "/Photography-Page/./static/media/gm.edf4c917.png"
+  },
+  {
+    "revision": "e8f99031b6abbe4c7f8fefd7c152973c",
+    "url": "/Photography-Page/./static/media/twt.e8f99031.png"
+  },
+  {
+    "revision": "52ffec97cafc3bd13bad4ac5075a3649",
     "url": "/Photography-Page/./index.html"
   }
 ];
