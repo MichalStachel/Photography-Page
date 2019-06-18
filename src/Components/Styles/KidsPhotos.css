@@ -137,21 +137,30 @@
 
 @keyframes showPhoto {
   0% {
-    height: 0;
+    max-height: 0;
+    max-width: 0;
   }
 
   100% {
-    height: 90vh;
+    max-height: 90vh;
+    max-width: 80%;
   }
 }
 
 @keyframes hidePhoto {
   0% {
-    height: 90vh;
+    max-height: 90vh;
+    max-width: 80%;
+  }
+
+  20% {
+    max-height: 95vh;
+    max-width: 85%;
   }
 
   100% {
-    height: 0;
+    max-height: 0;
+    max-width: 0;
   }
 }
 

@@ -50,7 +50,7 @@ class App extends Component {
             <KidsPhotos />
             <Element name="scrollToAbout"><About /></Element>
             <Element name="scrollToContact"><Contact /></Element>
-            {/* <ContactPage /> */}
+            <ContactPage />
             <Btn />
           </ScrollAnimation>
         </main>

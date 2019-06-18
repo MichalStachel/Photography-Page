@@ -1,51 +1,57 @@
 .contact {
-  font-size: 1.5rem;
-  background-color: #ecf0f1;
   padding: 15px 30px;
-}
-
-div p a {
-  text-decoration: none;
-  color: #3C5A99;
-}
-
-.contact p {
+  flex-basis: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
-.contact p i {
-  padding-right: 2%;
+
+.contact img {
+  height: 20vh;
+  transition: 0.4s;
 }
 
-.contact p a {
-  white-space: nowrap;
+.contact img:hover {
+  filter: brightness(0.6);
 }
 
 .GM {
-  color: #D44638;
+  color: rgb(228, 85, 66) !important;
 }
 
-#btn-mail {
-  outline: none;
-  margin: 0 10px;
-  color: #D44638;
-  border: 1px inset #D44638;
-  background: none;
-  border-radius: 15px;
+.TWT {
+  color: #1da1f2 !important;
+}
+
+.contact .iconBox {
+  position: relative;
   cursor: pointer;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
-  transition: 0.2s;
 }
 
-#btn-mail:hover {
-  transform: translate(1px, 1px);
-  transition: 0.2s;
+.contact .iconBox:focus {
+  outline: none;
 }
 
-#btn-mail:active {
-  background: #bdc3c7;
-  transition: 0.2s;
+.contact .iconBox .details {
+  position: absolute;
+  transform: scaleY(0);
+  transition: 0.4s;
+  top: 28%;
+  left: 23%;
 }
+
+.contact .iconBox:hover .details {
+  position: absolute;
+  transform: scaleY(1);
+}
+
+.details p {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 #copied {
   animation: copied 3s ease;
@@ -69,6 +75,40 @@ div p a {
   }
 }
 
+@media(max-width:1600px) {
+  .contact .iconBox .details {
+    top: 27%;
+    left: 26%;
+    font-size: 1.2rem;
+  }
+}
 
+@media(max-width:1300px) {
+  .contact .iconBox .details {
+    top: 33%;
+    left: 30%;
+    font-size: 1rem;
+  }
+}
 
-@media (max-width:600px) {}
+@media (max-width:900px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact img {
+    height: 20vh;
+    padding: 8vh;
+  }
+
+  .contact .iconBox .details {
+    top: 26%;
+    left: 39%;
+  }
+
+  .details p {
+    display: none;
+  }
+}
